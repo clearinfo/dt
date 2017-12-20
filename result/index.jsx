@@ -36,13 +36,13 @@ class ZmitiResultApp extends Component {
 					</header>
 					<div className='zmiti-dangjian-q-list-C'>
 						{this.props.myAnswer.length>=this.props.question.length && <div className='zmiti-dangjian-reuslt-q-list'>
-						{this.props.question.map((item,i)=>{
+						{this.props.question.map((item,i) => {
 							return <div key={i} className='zmiti-dangjian-answer-C'>
 								<article>
 									{item.img && <img src={item.img}/>}	
 									<div>{(i+1)+ '、' +item.title}</div>
 								</article>
-								{item.answer.map((a,k)=>{
+								{item.answer.map((a,k) => {
 									if(a.isRight){
 										return <div key={k} className={'zmiti-dangjian-result-a-item right '+(this.props.myAnswer[i][item.isMultiselect?k:0] === k ?'active':'') }><span>{arr[k]+'、'+a.content}</span></div>	
 									}else{
