@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html style="font-size: 32px;">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=640,user-scalable=no">
+	<meta name="format-detection" content="telephone=no,email=no" />
+	<title>@所有人:来自新时代的一份考卷，请查收</title>
+	<script>
+		document.addEventListener("touchmove",function(e){e.preventDefault();});
+	</script>
+	<style>
+	body{
+		font-family: "Helvetica Neue", 'Helvetica', "Microsoft YaHei", '微软雅黑', arial, sans-serif;
+	}
+	.zmiti-loadin-text{
+		position: absolute;
+		width:100%;
+		text-align: center;
+		top: 50%;
+	}
+	.zmiti-back{
+		width: 80px;
+		height: 80px;
+		position: fixed;
+		right: 50px;
+		bottom: 50px;
+		display: none;
+		z-index: 10000;
+	}
+</style>
+</head>
+<body style="overflow: hidden;">
+	<div id="fly-main-ui">
+		<span class='zmiti-loadin-text'>正在进入...</span>
+	</div>
+	<div class="zmiti-back" id="zmiti-back">
+		<a href='http://h5.zhongguowangshi.com/h5-summary1/index.html?zmiti=zmiti'>
+			<img src="./assets/images/back.png">
+		</a>
+	</div>
+
+	<script src='https://res.wx.qq.com/open/js/jweixin-1.2.0.js'></script>
+	<script src='./assets/js/vendor.js'></script>
+	<script type="text/javascript">
+		window.PointerEvent = void 0;
+		function onError(){
+			var script  = document.createElement('script');
+			script.src = './assets/js/index.js?aa='+new Date().getTime();
+			document.body.appendChild(script);
+		}
+
+		window.subTitle = '是学霸还是学神，测试下你有多强？';
+
+		window.formTitle = '请输入你的姓名和电话';
+			//学习十九大报告，你超过了××%的人，达到＊＊＊＊水平。
+			window.share  = {
+				title:'学习十九大报告，我答对了{rightAnswerCount}题，超过了{scale}%的人，达到“{level}”水平',
+				desc:'是学霸还是学神   测试一下你有多强？'
+			}
+
+			window.h5name = 'qa19da';
+			window.config = {
+				server:'zhongguowangshi',
+				appId:'wx5ec3d35069383211',
+				worksid:'9185180370',
+				protocol:'https'
+			};
+
+			function loadScript(src){
+				var script  = document.createElement('script');
+				script.src = src+'?aa='+new Date().getTime();
+				document.body.appendChild(script);
+			}
+
+			loadScript('./assets/js/index.js')
+
+
+			function getQueryString(name) {
+				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+				var r = window.location.search.substr(1).match(reg);
+				if (r != null) return (r[2]);
+				return null;
+			}
+
+			var key = getQueryString('zmiti');
+			if(key === 'zmiti'){
+				document.getElementById('zmiti-back').style.display = 'block';
+			}
+
+		</script>
+
+		
+		<!--
+		<script src='http://localhost:4009/index.js' onError='onError()'></script>
+		 
+	-->
+	
+</body>
+</html>
