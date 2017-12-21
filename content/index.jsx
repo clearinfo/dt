@@ -295,18 +295,11 @@ class ZmitiContentApp extends Component {
 			</div>	
 			</div>
 
-			<div className='zmiti-team'>总策划：刘思扬</div>
-			<div className='zmiti-team1'></div>
 			<div className='zmiti-team'>出品：陈凯星、冯瑛冰</div>
 			<div className='zmiti-team'>监制：齐慧杰 孙爱东</div>
-			<div className='zmiti-team'>统筹：黄庆华 曹晓轩</div>
-			<div className='zmiti-team'>试题编辑：王谦 班和平 苏蕾 常琳 郑雪婧 孟洁 李瑜 程昊</div>
-			<div className='zmiti-team1'></div>
-			<div className='zmiti-team'>文案：李昂 邬金夫 刘雅萱</div>
-			<div className='zmiti-team1'></div>
-			<div className='zmiti-team'>视觉：潘红宇</div>
+			<div className='zmiti-team'>统筹：宋君毅</div>
+			<div className='zmiti-team'>试题编辑：孟洁、侯帮兴、郭兴</div>
 			<div className='zmiti-team'>制作：马发展 麟腾传媒</div>
-
 			<div className='zmiti-copyright'>新华社客户端<span style={{opacity:0}}>新</span>半月谈杂志社联合出品</div>
 			</div>
 			</section>

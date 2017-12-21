@@ -161,15 +161,15 @@ $viewW: 640px;
 
   .zmiti-index-note {
     margin: 70px auto 0;
-    width: 550px;
+    width: 100%;
     @include pos(r);
   }
 
   .zmiti-index1 {
     @include pos(a);
     width: 200px;
-    right: 70px;
-    margin-top: 350px;
+    right: 10px;
+    top:-30px;
     z-index: 10;
     @include transform(scale(1.1));
     opacity: 0;
@@ -183,11 +183,11 @@ $viewW: 640px;
   }
 
   .zmiti-circle {
-    width: 440px;
+    width: 100%;
     @include pos(a);
-    left: 55px;
+    left: 0;
     opacity: 0;
-    top: 200px;
+    top: 230px;
 
     &.active {
       opacity: 1;
@@ -223,7 +223,7 @@ $viewW: 640px;
 
   .zmiti-begin-test {
     @include pos(a);
-    bottom: 40px;
+    bottom: 200px;
     left: 68%;
     width: 200px;
     margin-left: -220px;
@@ -238,7 +238,14 @@ $viewW: 640px;
   }
 
 }
-
+.zmiti-footer-copyright{width:100%;
+  position: absolute;
+  bottom: 0;
+  img{
+    width:100%;
+    display:block;
+  }
+}
 @-webkit-keyframes scale {
   from {
     @include transform(scale(.97));
