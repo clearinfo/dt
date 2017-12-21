@@ -1,104 +1,356 @@
 {
 	"question": [{
-		"title": "十八大以来的五年，我国经济保持中高速增长，国内生产总值从五十四万亿元增长到（  ）亿元，稳居世界第二。",
+		"title": "1月18日，习近平访问联合国日内瓦总部并出席高级别会议，强调要建设一个持久和平、普遍安全、共同繁荣、开放包容、绿色低碳的世界。此后，“______”理念被载入联合国多项决议。",
 		"img": "",
 		"score": 1,
 		"answer": [{
-			"content": "七十万",
+			"content": "新发展",
 			"isRight": false
 		}, {
-			"content": "八十万",
+			"content": "构建人类命运共同体",
 			"isRight": true
 		}],
 		"id": "8ySKDGKd",
 		"isMultiselect": false
 	}, {
 		"img": "",
-		"title": "经过长期努力，中国特色社会主义进入了（    ），这是我国发展新的历史方位。",
+		"title": "1月23日，美国总统特朗普签署行政命令，正式宣布美国退出______。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "TPP",
+			"isRight": true
+		}, {
+			"content": "TTIP",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "3月5日－15日，十二届全国人大五次会议举行。李克强作政府工作报告。会议通过《______》。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "中华人民共和国民法总则",
+			"isRight": true
+		}, {
+			"content": "中华人民共和国刑法总则",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "3月24日，《高中阶段教育普及攻坚计划（2017－2020年）》印发。提出到2020年普及高中阶段教育，全国各省（区、市）毛入学率均达到______以上。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "90%",
+			"isRight": true
+		}, {
+			"content": "80%",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "3月26日，______当选为香港特别行政区第五任行政长官人选。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "林郑月娥",
+			"isRight": true
+		}, {
+			"content": "梁振英",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "3月28日，中共中央、国务院发出通知，决定设立______。这是继深圳经济特区和上海浦东新区之后又一具有全国意义的新区。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "河北雄安新区",
+			"isRight": true
+		}, {
+			"content": "天津滨海新区",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "3月31日，韩国法院签发对前总统______的逮捕令。其是第三名被检方提请批捕的韩国前总统。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "朴槿惠",
+			"isRight": true
+		}, {
+			"content": "李明博",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "4月20日，我国自主研制的首艘货运飞船______成功发射。在轨期间，先后顺利完成空间站货物补给、推进剂在轨补加、自主快速交会对接等多项拓展应用和相关试验。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "天舟一号",
+			"isRight": true
+		}, {
+			"content": "天宫一号",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "4月26日，我国第______艘航空母舰出坞下水，标志着我国自主设计建造航空母舰取得重大阶段性成果。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "一",
+			"isRight": false
+		}, {
+			"content": "二",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "5月3日，世界首台单光子量子计算机在______诞生。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "美国",
+			"isRight": false
+		}, {
+			"content": "中国",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "5月5日，______大型客机首飞成功。这意味着我国成为世界上少数几个拥有研制大型客机能力的国家。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "A380",
+			"isRight": false
+		}, {
+			"content": "C919",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "5月14日－15日，“一带一路”国际合作高峰论坛在北京举行。习近平强调，将“一带一路”建成______之路。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "创新、协调、绿色、开放、共享",
+			"isRight": false
+		}, {
+			"content": "和平、繁荣、开放、创新、文明",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "6月1日，_______宣布将退出应对全球气候变化的《巴黎协定》。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "美国",
+			"isRight": true
+		}, {
+			"content": "英国",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "6月6日、7月23日，中共中央分别印发《关于追授______同志“全国优秀共产党员”称号的决定》《关于追授______同志“全国优秀共产党员”称号的决定》，号召广大党员、干部向他们学习。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "廖俊波、黄大年",
+			"isRight": true
+		}, {
+			"content": "毛腊生、黄大发",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "6月13日，中华人民共和国和_______建交。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "巴哈马国",
+			"isRight": false
+		}, {
+			"content": "巴拿马共和国",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "6月23日,习近平在山西太原主持召开深度贫困地区脱贫攻坚座谈会，强调要重点研究解决_______问题。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "精神贫困",
+			"isRight": false
+		}, {
+			"content": "深度贫困",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "6月25日，我国自主研发、具有完全自主知识产权的中国标准动车组“______”正式命名。9月21日在全世界率先实现高铁时速350公里商业运营。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "复兴号",
+			"isRight": true
+		}, {
+			"content": "和谐号",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "7月7日，______主体工程全线贯通。大桥总长55公里，是世界最长的跨海大桥。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "港珠澳大桥",
+			"isRight": true
+		}, {
+			"content": "杭州湾跨海大桥",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "7月7日、8日，______、“鼓浪屿：历史国际社区”入选《世界遗产名录》。至此，中国有52个项目列入世界遗产名录，位列世界第二。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "青海可可西里",
+			"isRight": true
+		}, {
+			"content": "云南红河哈尼梯田",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "7月28日，中央军委首次举行颁授“_______”和授予荣誉称号仪式。该勋章是由中央军委决定、中央军委主席签发证书并颁授的军队最高荣誉。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "八一勋章",
+			"isRight": true
+		}, {
+			"content": "解放勋章",
+			"isRight": false
+		}]
+	},{
+		"title": "7月30日，庆祝中国人民解放军建军90周年阅兵在_______举行。这是人民军队整体性、革命性变革后的全新亮相。",
+		"img": "",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "朱日和联合训练基地",
+			"isRight": true
+		}, {
+			"content": "天安门广场",
+			"isRight": false
+		}]
+	},{
+		"img": "",
+		"title": "8月1日，中国人民解放军驻______保障基地部队进驻营区仪式举行，标志着我国首个海外保障基地建成和投入使用。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "吉布提",
+			"isRight": true
+		}, {
+			"content": "瓜达尔港",
+			"isRight": false
+		}]
+	},{
+		"img": "",
+		"title": "8月8日，______自治区成立70周年庆祝大会举行。中共中央、全国人大常委会、国务院、全国政协、中央军委致电祝贺。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "内蒙古",
+			"isRight": true
+		}, {
+			"content": "西藏",
+			"isRight": false
+		}]
+	},{
+		"img": "",
+		"title": "8月18日，_______互联网法院正式揭牌，成为我国首家互联网法院。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "北京",
+			"isRight": false
+		}, {
+			"content": "杭州",
+			"isRight": true
+		}]
+	},{
+		"img": "",
+		"title": "9月3日－5日，金砖国家领导人第九次会晤在______举行。习近平强调要开启金砖合作第二个“金色十年”，使金砖合作造福五国人民，惠及各国人民。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "福建厦门",
+			"isRight": true
+		}, {
+			"content": "浙江杭州",
+			"isRight": false
+		}]
+	},{
+		"img": "",
+		"title": "9月13日，国际奥委会在第131次全会上，最终确定______为2024年夏季奥运会举办地、________为2028年夏季奥运会举办地。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "洛杉矶、巴黎",
+			"isRight": false
+		}, {
+			"content": "巴黎、洛杉矶",
+			"isRight": true
+		}]
+	},{
+		"img": "",
+		"title": "9月29日，中共中央政治局会议决定给予______开除党籍、开除公职处分，将其涉嫌犯罪问题及线索移送司法机关依法处理。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "孙政才",
+			"isRight": true
+		}, {
+			"content": "张阳",
+			"isRight": false
+		}]
+	},{
+		"img": "",
+		"title": "中国共产党第十九次全国代表大会于______在北京召开。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "10月18日",
+			"isRight": true
+		}, {
+			"content": "11月8日",
+			"isRight": false
+		}]
+	},{
+		"img": "",
+		"title": "习近平同志在十九大报告中指出，中国特色社会主义进入了______，这是我国发展新的历史方位。 ",
 		"score": 1,
 		"isMultiselect": false,
 		"answer": [{
 			"content": "新时代",
 			"isRight": true
 		}, {
-			"content": "新时期",
+			"content": "新阶段",
 			"isRight": false
 		}]
-	}, {
+	},{
 		"img": "",
-		"title": "我国社会主要矛盾已经转化为人民日益增长的美好生活需要和（    ）之间的矛盾。",
-		"score": 1,
-		"isMultiselect": false,
-		"answer": [{
-			"content": "落后的社会生产力",
-			"isRight": false
-		}, {
-			"content": "不平衡不充分的发展",
-			"isRight": true
-		}]
-	}, {
-		"img": "",
-		"title": "近代以来久经磨难的中华民族迎来了从站起来、富起来到强起来的伟大飞跃，迎来了实现中华民族（  ）的光明前景。",
-		"score": 1,
-		"isMultiselect": false,
-		"answer": [{
-			"content": "大国崛起",
-			"isRight": false
-		}, {
-			"content": "伟大复兴",
-			"isRight": true
-		}]
-	}, {
-		"img": "",
-		"title": "坚持全面从严治党，必须以（  ）为根本遵循，把党的政治建设摆在首位，思想建党和制度治党同向发力，统筹推进党的各项建设。",
-		"score": 1,
-		"isMultiselect": false,
-		"answer": [{
-			"content": "党章",
-			"isRight": true
-		}, {
-			"content": "规定",
-			"isRight": false
-		}]
-	}, {
-		"img": "",
-		"title": "在全面建成小康社会的基础上，分（  ）在本世纪中叶建成富强民主文明和谐美丽的社会主义现代化强国。",
-		"score": 1,
-		"isMultiselect": false,
-		"answer": [{
-			"content": "三步走",
-			"isRight": false
-		}, {
-			"content": "两步走",
-			"isRight": true
-		}]
-	}, {
-		"img": "",
-		"title": "从二〇二〇年到二〇三五年，在全面建成小康社会的基础上，再奋斗十五年，（  ）。",
-		"score": 1,
-		"isMultiselect": false,
-		"answer": [{
-			"content": "基本实现社会主义现代化",
-			"isRight": true
-		}, {
-			"content": "完全实现社会主义现代化",
-			"isRight": false
-		}]
-	}, {
-		"img": "",
-		"title": "从二〇三五年到本世纪中叶，在基本实现现代化的基础上，再奋斗十五年，（    ）。",
-		"score": 1,
-		"isMultiselect": false,
-		"answer": [{
-			"content": "把我国建成富强民主文明的社会主义现代化国家",
-			"isRight": false
-		}, {
-			"content": "把我国建成富强民主文明和谐美丽的社会主义现代化强国",
-			"isRight": true
-		}]
-	}, {
-		"img": "",
-		"title": "新时代中国特色社会主义（    ）是马克思主义中国化最新成果。",
+		"title": "十九大一致同意，在党章中把习近平新时代中国特色社会主义______同马克思列宁主义、毛泽东思想、邓小平理论、“三个代表”重要思想、科学发展观一道确立为党的行动指南。",
 		"score": 1,
 		"isMultiselect": false,
 		"answer": [{
@@ -108,142 +360,130 @@
 			"content": "理论",
 			"isRight": false
 		}]
-	}, {
+	},{
 		"img": "",
-		"title": "全党必须牢记，（  ）的问题，是检验一个政党、一个政权性质的试金石。",
+		"title": "十九大报告提出，我国社会主要矛盾已经转化为人民日益增长的美好生活需要和_______之间的矛盾。",
 		"score": 1,
 		"isMultiselect": false,
 		"answer": [{
-			"content": "依靠什么人",
+			"content": "落后的社会生产力",
 			"isRight": false
 		}, {
-			"content": "为什么人",
+			"content": "不平衡不充分的发展",
 			"isRight": true
 		}]
-	}, {
+	},{
 		"img": "",
-		"title": "建设现代化经济体系，必须把发展经济的着力点放在（  ）上。",
+		"title": "十九大报告提出，从_______年到本世纪中叶，把我国建成富强民主文明和谐美丽的社会主义现代化强国。",
 		"score": 1,
 		"isMultiselect": false,
 		"answer": [{
-			"content": "实体经济",
-			"isRight": true
-		}, {
-			"content": "虚拟经济",
-			"isRight": false
-		}]
-	}, {
-		"img": "",
-		"title": "伟大斗争，伟大工程，伟大事业，伟大梦想，紧密联系、相互贯通、相互作用，其中起决定性作用的是（    ）。",
-		"score": 1,
-		"isMultiselect": false,
-		"answer": [{
-			"content": "中国特色社会主义伟大事业",
+			"content": "二〇二〇",
 			"isRight": false
 		}, {
-			"content": "党的建设新的伟大工程",
+			"content": "二〇三五",
 			"isRight": true
 		}]
-	}, {
+	},{
 		"img": "",
-		"title": "我国经济已由高速增长阶段转向（  ）发展阶段，正处在转变发展方式、优化经济结构、转换增长动力的攻关期，建设现代化经济体系是跨越关口的迫切要求和我国发展的战略目标。",
+		"title": "10月25日，在中国共产党第十九届中央委员会第一次全体会议上当选的中共中央总书记习近平和中共中央政治局常委______在人民大会堂同中外记者见面。",
 		"score": 1,
 		"isMultiselect": false,
 		"answer": [{
-			"content": "高质量",
+			"content": "李克强、栗战书、汪洋、王沪宁、赵乐际、韩正",
 			"isRight": true
 		}, {
-			"content": "中低速",
+			"content": "李克强、张德江、俞正声、刘云山、王岐山、张高丽",
 			"isRight": false
 		}]
-	}, {
+	},{
 		"img": "",
-		"title": "实施乡村振兴战略，保持土地承包关系稳定并长久不变，第二轮土地承包到期后再延长（  ）年。",
+		"title": "10月31日，习近平带领中共中央政治局常委李克强、栗战书、汪洋、王沪宁、赵乐际、韩正，专程从北京前往上海和浙江嘉兴，瞻仰上海______会址和浙江嘉兴南湖红船。",
 		"score": 1,
 		"isMultiselect": false,
 		"answer": [{
-			"content": "二十年",
-			"isRight": false
-		}, {
-			"content": "三十年",
-			"isRight": true
-		}]
-	}, {
-		"img": "",
-		"title": "人与自然是生命共同体，人类必须尊重自然、顺应自然、（  ）。",
-		"score": 1,
-		"isMultiselect": false,
-		"answer": [{
-			"content": "保护自然",
+			"content": "中共一大",
 			"isRight": true
 		}, {
-			"content": "改造自然",
+			"content": "中共二大",
 			"isRight": false
 		}]
-	}, {
+	},{
 		"img": "",
-		"title": "我们呼吁，各国人民同心协力，构建（   ），建设持久和平、普遍安全、共同繁荣、开放包容、清洁美丽的世界。",
+		"title": "11月4日，在认真总结北京市、_____、浙江省开展国家监察体制改革试点工作经验的基础上，第十二届全国人民代表大会常务委员会第三十次会议决定：在全国各地推开国家监察体制改革试点工作。 ",
 		"score": 1,
 		"isMultiselect": false,
 		"answer": [{
-			"content": "人类命运共同体",
+			"content": "山西省",
 			"isRight": true
 		}, {
-			"content": "地球村",
+			"content": "陕西省",
 			"isRight": false
 		}]
-	}, {
+	},{
 		"img": "",
-		"title": "旗帜鲜明（  ）是我们党作为马克思主义政党的根本要求。",
+		"title": "11月7日，是俄国______胜利100周年纪念日。俄罗斯组织了多场社会活动，纪念这一开创人类历史新纪元的重要日子。 ",
 		"score": 1,
 		"isMultiselect": false,
 		"answer": [{
-			"content": "讲政治",
+			"content": "十月革命",
 			"isRight": true
 		}, {
-			"content": "讲正气",
+			"content": "护国战争",
 			"isRight": false
 		}]
-	}, {
+	},{
 		"img": "",
-		"title": "制定国家监察法，依法赋予监察委员会职责权限和调查手段，用（  ）取代“两规”措施。",
+		"title": "12月3日，第______届世界互联网大会在浙江省乌镇开幕。国家主席习近平发来贺信。",
 		"score": 1,
 		"isMultiselect": false,
 		"answer": [{
-			"content": "留置",
-			"isRight": true
-		}, {
-			"content": "拘留",
-			"isRight": false
-		}]
-	}, {
-		"img": "",
-		"title": "力争到二〇三五年基本实现国防和军队现代化，到（  ）把人民军队全面建成世界一流军队。",
-		"score": 1,
-		"isMultiselect": false,
-		"answer": [{
-			"content": "2020年",
+			"content": "三",
 			"isRight": false
 		}, {
-			"content": "本世纪中叶",
+			"content": "四",
 			"isRight": true
 		}]
-	}, {
+	},{
 		"img": "",
-		"title": "以县处级以上领导干部为重点，在全党开展“（  ）”主题教育，用党的创新理论武装头脑，推动全党更加自觉地为实现新时代党的历史使命不懈奋斗。",
+		"title": "12月5日，联合国环境规划署宣布，中国_______建设者获得2017年联合国环保最高荣誉——“地球卫士奖”。",
 		"score": 1,
 		"isMultiselect": false,
 		"answer": [{
-			"content": "不忘初心、牢记使命",
+			"content": "黑龙江奋斗林场",
+			"isRight": false
+		}, {
+			"content": "塞罕坝林场",
+			"isRight": true
+		}]
+	},{
+		"img": "",
+		"title": "12月14日，台湾著名诗人、《乡愁》作者______因病去世，享年90岁。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "余光中",
 			"isRight": true
 		}, {
-			"content": "两学一做",
+			"content": "纪弦",
 			"isRight": false
+		}]
+	},{
+		"img": "",
+		"title": "12月15日，北京2022年冬奥会会徽______和冬残奥会会徽______在国家游泳中心正式发布。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "“飞跃”“冬梦”",
+			"isRight": false
+		}, {
+			"content": "“冬梦”“飞跃”",
+			"isRight": true
 		}]
 	}],
 	"theme": "DANGJIAN",
 	"duration": 36000,
-	"title": "@所有人:来自新时代的一份考卷，请查收",
+	"title": "考考你，新时代新考题，2017这一年！",
 	"wxappid": "wx5ec3d35069383211",
 	"wxappsecret": "d94ea41d9cd2ba03c7cab5fc0e212cec",
 	"worksid": "1359526489",
@@ -251,18 +491,18 @@
 	"wxauthurl": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx5ec3d35069383211&redirect_uri=http%3A%2F%2Fapi.zmiti.com%2Fzmiti_ele%2Fcompany%2Fmafazhan%2Fworks%2F1359526489%2F&response_type=code&scope=snsapi_userinfo&state=state#wechat_redirect",
 	"bgSound": "",
 	"questionType": "single",
-	"totalScore": 20,
+	"totalScore": 40,
 	"level": [{
-		"score": 20,
+		"score": 40,
 		"name": "特级"
 	}, {
-		"score": 15,
+		"score": 30,
 		"name": "高级"
 	}, {
-		"score": 10,
+		"score": 20,
 		"name": "中级"
 	}, {
-		"score": 5,
+		"score": 10,
 		"name": "初级"
 	}],
 	"isMultiselect": false,

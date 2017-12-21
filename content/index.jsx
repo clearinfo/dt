@@ -189,8 +189,8 @@ class ZmitiContentApp extends Component {
 			{this.props.needInfo && <section className={'zmiti-dangjian-content-user lt-full '+(this.state.hideUser?'hide':'')} >
 			<div className='zmiti-dangjian-content-cover'>
 			<section className='zmiti-dangjian-content-form'>
-			<div className='zmiti-dangjian-content-input'><label>姓名：</label><input ref='input' value={this.state.username} onChange={(e)=>{this.setState({username:e.target.value})}} placeholder='请输入姓名' type='text'/></div>
-			<div className='zmiti-dangjian-content-input'><label>手机号：</label><div className='zmiti-dangjian-tel-input' value={this.state.tel} style={{paddingLeft: 110}}  onTouchStart={()=>{this.refs['input'].blur();this.setState({showKeyboard:true})}}>{this.state.tel||'请输入手机号'}</div></div>
+			<div className='zmiti-dangjian-content-input'><label>姓名：</label><input ref='input' value={this.state.username} onChange={(e) => {this.setState({username:e.target.value})}} placeholder='请输入姓名' type='text'/></div>
+			<div className='zmiti-dangjian-content-input'><label>手机号：</label><div className='zmiti-dangjian-tel-input' value={this.state.tel} style={{paddingLeft: 110}}  onTouchStart={() => {this.refs['input'].blur();this.setState({showKeyboard:true})}}>{this.state.tel||'请输入手机号'}</div></div>
 			<div className='zmiti-dangjian-clock'><ZmitiClockApp></ZmitiClockApp></div>
 			<div className='zmiti-dangjian-all-duration'>请在{(this.props.duration/60|0)+'分钟'+(this.props.duration%60>0 ? (this.props.duration%60|0)+'秒':'')}内完成测试</div>
 
@@ -211,7 +211,7 @@ class ZmitiContentApp extends Component {
 			<path strokeDasharray="10,6" d="M0 2 L640 2" stroke='#ccc' strokeWidth={3} >
 			</path>
 			</svg>
-			{this.props.question.map((question,q)=>{
+			{this.props.question.map((question,q) => {
 				var className = '';
 				if(this.state.currentQid > q ){
 					className = 'left';
@@ -243,7 +243,7 @@ class ZmitiContentApp extends Component {
 				<img src='./assets/images/q-title1.png' className='zmiti-q-title1'/>
 				</div>
 				<div className='zmiti-dangjian-q-answer-list'>
-				{question.answer.map((item,i)=>{
+				{question.answer.map((item,i) => {
 					return <div 
 					onTouchTap={this.chooseMyAnswer.bind(this,i)} key={i} 
 					className={'zmiti-dangjian-q-item ' + (this.state.iNow ===i ? this.state.result :'')} ref={'answer-'+i}>
@@ -321,7 +321,7 @@ class ZmitiContentApp extends Component {
 		return (
 			<div className={'zmiti-content-main-ui  '+(this.state.showContent ? 'show':'') +(this.state.hideContent?' hide':'')}>
 			{component}
-			{this.state.showMask&& <div onTouchStart={()=>{this.setState({showMask:false})}} className='zmiti-mask lt-full' style={maskStyle}></div>}
+			{this.state.showMask&& <div onTouchStart={() => {this.setState({showMask:false})}} className='zmiti-mask lt-full' style={maskStyle}></div>}
 			<ZmitiKeyboardApp show={this.state.showKeyboard} obserable={this.props.obserable}></ZmitiKeyboardApp>
 			<div className='zmiti-dangjian-toast'>
 			{this.state.toast && <ZmitiToastApp toast={this.state.toast}></ZmitiToastApp>}
