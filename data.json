@@ -267,6 +267,12 @@
         "./assets/images/logo.png",
         "./assets/images/refresh.png",
         "./assets/images/share-ico.png",
-        "./assets/images/arron1.png"
+        "./assets/images/arron1.png",
+	"./assets/images/index-01.png",
+	"./assets/images/index-02.png",
+	"./assets/images/index-03.png",
+	"./assets/images/index-04.png",
+	"./assets/images/index-05.png",
+	"./assets/images/index-bg.jpg",
     ]
 }

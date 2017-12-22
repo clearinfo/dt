@@ -52,8 +52,9 @@ class ZmitiIndexApp extends Component {
 						<img className={'zmiti-index1 '+this.state.className} src='./assets/images/index-02.png'/>
 						
 						<img className={'zmiti-title1 '+this.state.className} src='./assets/images/index-01.png'/>
-						<img className={'zmiti-circle '+this.state.className} src='./assets/images/index-03.png'/>
-						{/*<img className={'zmiti-title2 '+this.state.className} src='./assets/images/2.png'/>*/}
+						<img className={'zmiti-title2 '+this.state.className} src='./assets/images/index-03-2.png'/>
+						{/*<img className={'zmiti-title2 '+this.state.className} src='./assets/images/2.png'/>
+					<img className={'zmiti-circle '+this.state.className} src='./assets/images/index-03.png'/>*/}
 
 					</div>
 					<div onTouchTap={this.beginTest.bind(this)} className={'zmiti-begin-test '+ this.state.className}>

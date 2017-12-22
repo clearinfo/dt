@@ -6,6 +6,7 @@
 	<meta name="format-detection" content="telephone=no,email=no" />
 	<title>考考你，新时代新考题，2017这一年！</title>
 	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 10 + 'px';
 		document.addEventListener("touchmove",function(e){e.preventDefault();});
 	</script>
 	<style>
@@ -72,7 +73,7 @@
 				document.body.appendChild(script);
 			}
 
-			loadScript('./assets/js/index.js')
+			//loadScript('./assets/js/index.js')
 
 
 			function getQueryString(name) {
@@ -90,10 +91,10 @@
 		</script>
 
 		
-		<!--
+		<!---->
 		<script src='http://localhost:4009/index.js' onError='onError()'></script>
 		 
-	-->
+	
 	
 </body>
 </html>

@@ -261,7 +261,7 @@ class ZmitiContentApp extends Component {
 			</section>
 
 			<section  ref='result' className={'zmiti-dangjian-result-page lt-full ' + (this.state.showScore?'active':'') }style={mainStyle}>
-			<div>
+			<div style={{width:'100%'}}>
 			<div className='zmiti-dangjian-score-C'>
 			<div className='zmiti-dangjian-score'>
 			{this.state.score}
