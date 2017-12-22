@@ -1,5 +1,5 @@
 ﻿@import "../../../assets/css/base.scss";
-$viewW: 640px;
+$viewW: 10rem;
 
 .zmiti-content-main-ui {
   width: $viewW;
@@ -189,7 +189,7 @@ $viewW: 640px;
 
     .zmiti-dangjian-q-title {
       width: 90%;
-      margin: 100px auto;
+      margin:2.8rem auto 1.8rem auto;
       background: rgba(255, 255, 255, .8);
       background: #f1f0c0;
       @include br(10px);
@@ -203,17 +203,19 @@ $viewW: 640px;
         box-shadow: 0 0 20px rgba(0, 0, 0, .5)
       }
 
-      font-size:30px;
-      line-height: 50px;
+      font-size:0.35rem;
+      line-height: 1.8;
 
       &>span {
         color: #b58f4e;
-        font-size: 24px;
+        font-size:0.35rem;
         @include pos(a);
-        top: -44px;
+        top: -0.5rem;
       }
 
       box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
       @include pos(r);
 
       article>div {
@@ -266,7 +268,7 @@ $viewW: 640px;
             left: 9px;
             width: 70px;
             text-align: center;
-            top: 25px;
+            top: 0px;
           }
 
           &:nth-of-type(2) {
@@ -286,7 +288,7 @@ $viewW: 640px;
 
     .zmiti-dangjian-q-answer-list {
       width: 90%;
-      margin: 70px auto;
+      margin: 1.8rem auto;
 
       .zmiti-dangjian-q-item {
         background: rgba(255, 255, 255, .8);
@@ -311,10 +313,10 @@ $viewW: 640px;
         }
 
         @include pos(r);
-        line-height: 50px;
+        line-height: 1.8;
         margin: 20px 0;
         @include br(10px);
-        font-size: 32px;
+        font-size: 0.45rem;
         padding: 20px;
         box-sizing: border-box;
 

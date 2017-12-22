@@ -223,9 +223,8 @@ $viewW: 640px;
     @include pos(a);
     z-index:20;
     bottom: 2.8rem;
-    left: 68%;
-    width: 200px;
-    margin-left: -220px;
+    left: 3rem;
+    width: 4rem;
     opacity: 0;
     @include animation(scale 1s linear infinite alternate);
 
