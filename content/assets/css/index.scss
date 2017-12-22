@@ -142,7 +142,7 @@ $viewW: 10rem;
       }
 
       span {
-        color: #ffe270;
+        color: #efefef;
         font-size: 30px;
         margin: 0 20px;
       }
@@ -238,7 +238,7 @@ $viewW: 10rem;
         left: 50%;
         margin-left: -75px;
         background: #f1f0c0;
-        border: 1px dashed #c33b31;
+        border: 1px dashed #0b7dc3;
 
         .zmiti-q-title {
           @include pos(a);
@@ -255,7 +255,7 @@ $viewW: 10rem;
           left: 55%;
           @include transform(rotate(40deg));
           width: 1px;
-          background: #999;
+          background: #0b7dc3;
         }
 
         span {
@@ -263,7 +263,7 @@ $viewW: 10rem;
           @include pos(a);
 
           &:nth-of-type(1) {
-            color: #c33b31;
+            color: #0b7dc3;
             font-size: 70px;
             left: 9px;
             width: 70px;
@@ -272,7 +272,7 @@ $viewW: 10rem;
           }
 
           &:nth-of-type(2) {
-            color: #c33b31;
+            color: #0b7dc3;
             font-size: 40px;
             right: 14px;
             bottom: 30px;
@@ -380,7 +380,7 @@ $viewW: 10rem;
 
     .zmiti-copyright {
       color: #fff;
-      font-size: 32px;
+      font-size: 0.45rem;
       width: 90%;
       margin: 20px auto;
       white-space: nowrap;
@@ -402,7 +402,7 @@ $viewW: 10rem;
       .zmiti-dangjian-score {
         font-family: Georgia;
         color: #b58f4e;
-        font-size: 80px;
+        font-size: 55px;
         text-align: center;
         @include pos(a);
         $size: 220px;
@@ -413,7 +413,7 @@ $viewW: 10rem;
         left: 50%;
         margin-left: -$size /2;
         background: #f1f0c0;
-        line-height: $size - 30;
+        line-height: $size;
 
         svg {
           @include pos(a);
@@ -505,7 +505,7 @@ $viewW: 10rem;
     width: 90%;
     margin: 0 auto;
     color: #fff;
-    font-size: 30px;
+    font-size: 0.4rem;
     margin-top: 20px;
   }
 

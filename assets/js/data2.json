@@ -1,0 +1,84 @@
+{
+	"question": [{
+		"title": "1月18日，习近平访问联合国日内瓦总部并出席高级别会议，强调要建设一个持久和平、普遍安全、共同繁荣、开放包容、绿色低碳的世界。此后，“______”理念被载入联合国多项决议。",
+		"img": "",
+		"score": 1,
+		"answer": [{
+			"content": "新发展",
+			"isRight": false
+		}, {
+			"content": "构建人类命运共同体",
+			"isRight": true
+		}],
+		"id": "8ySKDGKd",
+		"isMultiselect": false
+	}, {
+		"img": "",
+		"title": "1月23日，美国总统特朗普签署行政命令，正式宣布美国退出______。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "TPP",
+			"isRight": true
+		}, {
+			"content": "TTIP",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "3月5日－15日，十二届全国人大五次会议举行。李克强作政府工作报告。会议通过《______》。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "中华人民共和国民法总则",
+			"isRight": true
+		}, {
+			"content": "中华人民共和国刑法总则",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "3月24日，《高中阶段教育普及攻坚计划（2017－2020年）》印发。提出到2020年普及高中阶段教育，全国各省（区、市）毛入学率均达到______以上。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "90%",
+			"isRight": true
+		}, {
+			"content": "80%",
+			"isRight": false
+		}]
+	}],
+	"theme": "DANGJIAN",
+	"duration": 36000,
+	"title": "考考你，新时代新考题，2017这一年！",
+	"wxappid": "wx5ec3d35069383211",
+	"wxappsecret": "d94ea41d9cd2ba03c7cab5fc0e212cec",
+	"worksid": "1359526489",
+	"qrcodeurl": "http://api.zmiti.com/zmiti_ele/company/mafazhan/works/1359526489/assets/images/qrcode1.png",
+	"wxauthurl": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx5ec3d35069383211&redirect_uri=http%3A%2F%2Fapi.zmiti.com%2Fzmiti_ele%2Fcompany%2Fmafazhan%2Fworks%2F1359526489%2F&response_type=code&scope=snsapi_userinfo&state=state#wechat_redirect",
+	"bgSound": "",
+	"questionType": "single",
+	"totalScore": 4,
+	"level": [{
+		"score": 4,
+		"name": "特级"
+	}, {
+		"score": 3,
+		"name": "高级"
+	}, {
+		"score": 2,
+		"name": "中级"
+	}, {
+		"score": 1,
+		"name": "初级"
+	}],
+	"isMultiselect": false,
+	"showLevel": true,
+	"indexPage": "./assets/images/index-bg.jpg",
+	"loadingImg": ["./assets/images/300.png", "./assets/images/zmiti.png", "./assets/images/bg1.jpg", "./assets/images/header-bg.jpg", "./assets/images/watch.png", "./assets/images/logo.png", "./assets/images/refresh.png", "./assets/images/share-ico.png", "./assets/images/arron1.png", "http://api.zmiti.com/zmiti_ele/company/mafazhan/material/20171019/79c84e85ca257689d0667dd769378b97.png"],
+	"shareTitle": "您答对了（{score}）道题，获得“{level}”称号",
+	"shareDesc": "您答对了（{score}）道题，获得“{level}”称号",
+	"isUseWx": false,
+	"isShowUseTime": true
+}
