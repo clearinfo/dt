@@ -26,6 +26,7 @@ class ZmitiContentApp extends Component {
 			currentAnswer: [],
 			clock: 0,
 			result: '',
+			levelcss:'zmiti-dangjing-sta1',
 			iNow: -1
 		};
 		this.viewW = document.documentElement.clientWidth;
@@ -183,7 +184,7 @@ class ZmitiContentApp extends Component {
 				break;
 			case "DANGJIAN":
 				var mainStyle = {
-					background: "#fff url(./assets/images/bg1.jpg) no-repeat center center",
+					background: "url(./assets/images/bg3.jpg) no-repeat center center",
 					backgroundSize: 'cover '
 				}
 				component = <div className='zmiti-dangjian-content-C lt-full' style={mainStyle} onTouchStart={this.contentTap.bind(this)}>
@@ -263,17 +264,17 @@ class ZmitiContentApp extends Component {
 
 			<section  ref='result' className={'zmiti-dangjian-result-page lt-full ' + (this.state.showScore?'active':'') }style={mainStyle}>
 			<div style={{width:'100%'}}>
-			<div className='zmiti-dangjian-score-C'>
-			<div className='zmiti-dangjian-score'>
-			{this.state.level}
-			<svg width="100%" height="200px" version="1.1"
-			xmlns="http://www.w3.org/2000/svg">
-			<circle cx={110} cy='110' r='90' fill='none' strokeDasharray="14,6" stroke='#000'></circle>
-			</svg>
-			</div>
-			<div>您答对了{this.state.rightAnswerCount}道题</div>
-			{this.state.rightAnswerCount>0 && <div><div style={{fontWeight:'bold'}}></div><div>超过了{this.state.percentile}%的网友</div></div>}
-			{this.state.rightAnswerCount<=0 && <div style={{fontWeight:'bold'}}>尚需努力！</div>}
+			<div className={'zmiti-dangjian-score-C ' + this.state.levelcss} >
+				{/*<div className='zmiti-dangjian-score'>
+				{this.state.level}
+				<svg width="100%" height="200px" version="1.1"
+				xmlns="http://www.w3.org/2000/svg">
+				<circle cx={110} cy='110' r='90' fill='none' strokeDasharray="14,6" stroke='#000'></circle>
+				</svg>
+				</div>*/}
+				
+				{this.state.rightAnswerCount>0 && <div className="zmiti-dangjian-report"><div>您答对了{this.state.rightAnswerCount}道题</div><div>达到“{this.state.level}”水平</div><div>超过了{this.state.percentile}%的网友</div></div>}
+				{this.state.rightAnswerCount<=0 && <div><div>您答对了{this.state.rightAnswerCount}道题</div><div>达到“{this.state.level}”水平</div><div style={{fontWeight:'bold'}}>尚需努力！</div></div>}
 
 			</div>
 
@@ -472,16 +473,20 @@ class ZmitiContentApp extends Component {
 			var scale = (Math.random() * 90 | 0) + 10;
 			var s = this;
 			if (s.state.rightAnswerCount === 40) {
-				scale = 99;				
+				scale = 99;	
+				s.state.levelcss='zmiti-dangjing-sta4';						
 			} else if (s.state.rightAnswerCount > 29) {
 				scale = (Math.random() * 20 | 0) + 70;
+				s.state.levelcss='zmiti-dangjing-sta4';
 			} else if (s.state.rightAnswer > 19) {
 				scale = (Math.random() * 20 | 0) + 50;
+				s.state.levelcss='zmiti-dangjing-sta3';
 			} else if (s.state.rightAnswerCount > 9) {
 				scale = (Math.random() * 20 | 0) + 30;
+				s.state.levelcss='zmiti-dangjing-sta2';
 			} else {
 				scale = (Math.random() * 20 | 0) + 4;
-
+				s.state.levelcss='zmiti-dangjing-sta1';
 			}
 			s.state.percentile=scale;
 			//console.log(s.state.percentile,scale,'测试百分比');

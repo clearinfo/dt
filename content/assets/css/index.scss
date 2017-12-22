@@ -264,7 +264,7 @@ $viewW: 10rem;
 
           &:nth-of-type(1) {
             color: #0b7dc3;
-            font-size: 70px;
+            font-size: 60px;
             left: 9px;
             width: 70px;
             text-align: center;
@@ -274,7 +274,7 @@ $viewW: 10rem;
           &:nth-of-type(2) {
             color: #0b7dc3;
             font-size: 40px;
-            right: 14px;
+            right: 8px;
             bottom: 30px;
             width: 70px;
             text-align: center;
@@ -385,15 +385,25 @@ $viewW: 10rem;
       margin: 20px auto;
       white-space: nowrap;
     }
-
+    .zmiti-dangjing-sta1{
+      background-image: url(http://h5.zhongguowangshi.com/dt/assets/images/index-07.png);
+    }
+    .zmiti-dangjing-sta2{
+      background-image: url(http://h5.zhongguowangshi.com/dt/assets/images/index-08.png);
+    }
+    .zmiti-dangjing-sta3{
+      background-image: url(http://h5.zhongguowangshi.com/dt/assets/images/index-09.png);
+    }
+    .zmiti-dangjing-sta4{
+      background-image: url(http://h5.zhongguowangshi.com/dt/assets/images/index-10.png);
+    }
     .zmiti-dangjian-score-C {
-      width: 90%;
-      margin: 150px auto 50px;
-      background: #f1f0c0;
-      border: 1px solid #000;
       text-align: center;
-      padding: 150px 40px 40px;
-      box-sizing: border-box;
+      box-sizing: border-box; 
+      background-repeat:no-repeat;
+      background-size:cover;
+      width: 10rem;
+      height:7.187rem;
       @include br(10px);
       font-size: 34px;
       color: #d32d32;
@@ -409,7 +419,7 @@ $viewW: 10rem;
         width: $size;
         height: $size;
         @include br(50%);
-        top: -$size /2;
+        top: 2.25rem;
         left: 50%;
         margin-left: -$size /2;
         background: #f1f0c0;
@@ -430,7 +440,14 @@ $viewW: 10rem;
       }
 
     }
-
+    .zmiti-dangjian-report{
+      font-size:0.42rem;
+      position: absolute;
+      top:3.2rem;
+      width:100%;
+      text-align:center;
+      line-height: 1.5;
+    }
     .zmiti-share-btns {
       width: 90%;
       height: 70px;

@@ -221,7 +221,7 @@
           position: absolute; }
           .zmiti-content-main-ui .zmiti-dangjian-question-C .zmiti-dangjian-q-title .zmiti-dangjian-pager span:nth-of-type(1) {
             color: #0b7dc3;
-            font-size: 70px;
+            font-size: 60px;
             left: 9px;
             width: 70px;
             text-align: center;
@@ -229,7 +229,7 @@
           .zmiti-content-main-ui .zmiti-dangjian-question-C .zmiti-dangjian-q-title .zmiti-dangjian-pager span:nth-of-type(2) {
             color: #0b7dc3;
             font-size: 40px;
-            right: 14px;
+            right: 8px;
             bottom: 30px;
             width: 70px;
             text-align: center; }
@@ -307,14 +307,21 @@
       width: 90%;
       margin: 20px auto;
       white-space: nowrap; }
+    .zmiti-content-main-ui .zmiti-dangjian-result-page .zmiti-dangjing-sta1 {
+      background-image: url(http://h5.zhongguowangshi.com/dt/assets/images/index-07.png); }
+    .zmiti-content-main-ui .zmiti-dangjian-result-page .zmiti-dangjing-sta2 {
+      background-image: url(http://h5.zhongguowangshi.com/dt/assets/images/index-08.png); }
+    .zmiti-content-main-ui .zmiti-dangjian-result-page .zmiti-dangjing-sta3 {
+      background-image: url(http://h5.zhongguowangshi.com/dt/assets/images/index-09.png); }
+    .zmiti-content-main-ui .zmiti-dangjian-result-page .zmiti-dangjing-sta4 {
+      background-image: url(http://h5.zhongguowangshi.com/dt/assets/images/index-10.png); }
     .zmiti-content-main-ui .zmiti-dangjian-result-page .zmiti-dangjian-score-C {
-      width: 90%;
-      margin: 150px auto 50px;
-      background: #f1f0c0;
-      border: 1px solid #000;
       text-align: center;
-      padding: 150px 40px 40px;
       box-sizing: border-box;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 10rem;
+      height: 7.187rem;
       border-radius: 10px;
       font-size: 34px;
       color: #d32d32;
@@ -328,7 +335,7 @@
         width: 220px;
         height: 220px;
         border-radius: 50%;
-        top: -110px;
+        top: 2.25rem;
         left: 50%;
         margin-left: -110px;
         background: #f1f0c0;
@@ -338,6 +345,13 @@
           left: 0; }
       .zmiti-content-main-ui .zmiti-dangjian-result-page .zmiti-dangjian-score-C div:last-of-type span {
         color: #b58f4e; }
+    .zmiti-content-main-ui .zmiti-dangjian-result-page .zmiti-dangjian-report {
+      font-size: 0.42rem;
+      position: absolute;
+      top: 3.2rem;
+      width: 100%;
+      text-align: center;
+      line-height: 1.5; }
     .zmiti-content-main-ui .zmiti-dangjian-result-page .zmiti-share-btns {
       width: 90%;
       height: 70px;
