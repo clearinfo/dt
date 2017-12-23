@@ -49,19 +49,13 @@ class ZmitiIndexApp extends Component {
 			}
 			conponent = <div ref='zmiti-index-page'  className='lt-full' style={indexStyle}>
 					<div className='zmiti-index-note'>
-						<img className={'zmiti-title4 '+this.state.className} src='./assets/images/index-02.png'/>
-						
+						<img className={'zmiti-title4 '+this.state.className} src='./assets/images/index-02.png'/>						
 						<img className={'zmiti-title1 '+this.state.className} src='./assets/images/index-01.png'/>
 						<img className={'zmiti-title2 '+this.state.className} src='./assets/images/index-03-3.png'/>
-						<img className={'zmiti-title3 '+this.state.className} src='./assets/images/index-06.png'/>
-					{/*<img className={'zmiti-circle '+this.state.className} src='./assets/images/index-03.png'/>*/}
-
+						<img className={'zmiti-title3 '+this.state.className} src='./assets/images/index-06.png'/>				
 					</div>
 					<div onTouchTap={this.beginTest.bind(this)} className={'zmiti-begin-test '+ this.state.className}>
 						<img src='./assets/images/index-04.png'/>
-					</div>
-					<div className="zmiti-footer-copyright">
-						<img src="./assets/images/index-05.png"/>
 					</div>
 				</div>
 		}

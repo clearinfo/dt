@@ -149,10 +149,10 @@
     z-index: 20;
     opacity: 0; }
     .zmiti-index-main-ui .zmiti-title4.active {
-      -webkit-transition: 0.5s 4s;
-      transition: 0.5s 4s;
-      -webkit-animation: flipInX 2s linear 4s alternate;
-      animation: flipInX 2s linear 4s alternate;
+      -webkit-transition: 0.5s 2.5s;
+      transition: 0.5s 2.5s;
+      -webkit-animation: flipInX 2s linear 2.5s alternate;
+      animation: flipInX 2s linear 2.5s alternate;
       opacity: 1; }
   .zmiti-index-main-ui .zmiti-circle {
     width: 100%;
@@ -190,26 +190,26 @@
     margin-top: 0.2rem;
     width: 4rem;
     left: 3rem;
-    top: 5.5rem;
+    top: 5.355rem;
     opacity: 0; }
     .zmiti-index-main-ui .zmiti-title3.active {
       opacity: 1;
-      -webkit-transition: 0.5s 2.5s;
-      transition: 0.5s 2.5s;
-      -webkit-animation: jackInTheBox 1s linear 2.5s alternate;
-      animation: jackInTheBox 1s linear 2.5s alternate; }
+      -webkit-transition: 0.5s 3.5s;
+      transition: 0.5s 3.5s;
+      -webkit-animation: jackInTheBox 1s linear 3.5s alternate;
+      animation: jackInTheBox 1s linear 3.5s alternate; }
   .zmiti-index-main-ui .zmiti-begin-test {
     position: absolute;
     z-index: 20;
-    bottom: 4rem;
+    top: 10rem;
     left: 3rem;
     width: 4rem;
     opacity: 0;
     -webkit-animation: rubberBand 1s linear infinite alternate;
     animation: rubberBand 1s linear infinite alternate; }
     .zmiti-index-main-ui .zmiti-begin-test.active {
-      -webkit-transition: 0.5s 2s;
-      transition: 0.5s 2s;
+      -webkit-transition: 0.5s 5s;
+      transition: 0.5s 5s;
       opacity: 1; }
 
 .zmiti-footer-copyright {
