@@ -303,9 +303,9 @@
       transform: translate3d(0, 0, 0); }
     .zmiti-content-main-ui .zmiti-dangjian-result-page .zmiti-copyright {
       color: #fff;
-      font-size: 0.42rem;
+      font-size: 0.4rem;
       width: 90%;
-      margin: 0.35rem auto;
+      margin: 0.2rem auto;
       white-space: nowrap; }
     .zmiti-content-main-ui .zmiti-dangjian-result-page .zmiti-dangjing-sta1 {
       background-image: url(http://h5.zhongguowangshi.com/dt/assets/images/index-07.png); }
@@ -406,6 +406,6 @@
     margin: 0 auto;
     color: #fff;
     font-size: 0.4rem;
-    margin-top: 0.3rem; }
+    margin-top: 0.2rem; }
 
 /*# sourceMappingURL=index.css.map */
