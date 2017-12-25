@@ -208,11 +208,6 @@ class ZmitiContentApp extends Component {
 			<img src='./assets/images/clock.png' />
 			<span>{this.state.clock/60<10?'0'+(this.state.clock/60|0):this.state.clock/60|0}:{this.state.clock % 60<10?'0'+this.state.clock % 60:this.state.clock % 60} s</span>
 			</header>
-			<svg  width="100%" height="23px" version="1.1"
-			xmlns="http://www.w3.org/2000/svg">
-			<path strokeDasharray="10,6" d="M0 2 L640 2" stroke='#ccc' strokeWidth={3} >
-			</path>
-			</svg>
 			{this.props.question.map((question,q) => {
 				var className = '';
 				if(this.state.currentQid > q ){
@@ -224,7 +219,7 @@ class ZmitiContentApp extends Component {
 				}
 				var scrollStyle ={
 					height:this.viewH - 78,
-					background:this.props.indexBg? '#fff url('+this.props.indexBg+') no-repeat center / cover' : "#fff url(./assets/images/bg1.jpg) no-repeat center center / cover "
+					background:this.props.indexBg? 'url('+this.props.indexBg+') no-repeat center top / cover' : "url(./assets/images/bg1.jpg) no-repeat center top / cover "
 				}
 
 				return	<section className={'zmiti-dangjian-q-scroll '+ className} ref={'zmiti-dangjian-q-scroll'+q} key={q} style={scrollStyle}>
@@ -274,7 +269,7 @@ class ZmitiContentApp extends Component {
 				</div>*/}
 				
 				{this.state.rightAnswerCount>0 && <div className="zmiti-dangjian-report"><div>您答对了{this.state.rightAnswerCount}道题</div><div>达到“{this.state.level}”水平</div><div>超过了{this.state.percentile}%的网友</div></div>}
-				{this.state.rightAnswerCount<=0 && <div><div>您答对了{this.state.rightAnswerCount}道题</div><div>达到“{this.state.level}”水平</div><div style={{fontWeight:'bold'}}>尚需努力！</div></div>}
+				{this.state.rightAnswerCount<=0 && <div className="zmiti-dangjian-report"><div>您答对了{this.state.rightAnswerCount}道题</div><div>达到“{this.state.level}”水平</div><div style={{fontWeight:'bold'}}>尚需努力！</div></div>}
 
 			</div>
 
@@ -298,10 +293,10 @@ class ZmitiContentApp extends Component {
 			</div>
 
 			<div className='zmiti-team'>出品：陈凯星、冯瑛冰</div>
-			<div className='zmiti-team'>监制：齐慧杰 孙爱东</div>
+			<div className='zmiti-team'>监制：齐慧杰、孙爱东</div>
 			<div className='zmiti-team'>统筹：宋君毅</div>
 			<div className='zmiti-team'>试题编辑：孟洁、侯帮兴、郭兴</div>
-			<div className='zmiti-team'>制作：马发展 麟腾传媒</div>
+			<div className='zmiti-team'>制作：马发展、麟腾传媒</div>
 			<div className='zmiti-copyright'>新华社客户端<span style={{opacity:0}}>新</span>半月谈杂志社联合出品</div>
 			</div>
 			</section>
@@ -478,19 +473,24 @@ class ZmitiContentApp extends Component {
 			} else if (s.state.rightAnswerCount > 29) {
 				scale = (Math.random() * 20 | 0) + 70;
 				s.state.levelcss='zmiti-dangjing-sta4';
+				
 			} else if (s.state.rightAnswer > 19) {
 				scale = (Math.random() * 20 | 0) + 50;
 				s.state.levelcss='zmiti-dangjing-sta3';
+				
 			} else if (s.state.rightAnswerCount > 9) {
 				scale = (Math.random() * 20 | 0) + 30;
 				s.state.levelcss='zmiti-dangjing-sta2';
+				
 			} else {
 				scale = (Math.random() * 20 | 0) + 4;
 				s.state.levelcss='zmiti-dangjing-sta1';
+				
 			}
-			s.state.percentile=scale;
-			//console.log(s.state.percentile,scale,'测试百分比');
-
+			
+			
+			//s.forceUpdate();
+			console.log(s.state.percentile,'测试百分比');
 			var title = window.share.title.replace(/{rightAnswerCount}/, s.state.rightAnswerCount).replace(/{scale}/, scale).replace(/{level}/, s.state.level);
 			if (s.state.rightAnswerCount === 0) {
 				title = ' 新时代新考题，尚需努力！';
@@ -517,6 +517,7 @@ class ZmitiContentApp extends Component {
 				success(data) {
 					if (data.getret === 0) {
 						scale = data.percent;
+						s.state.percentile=data.percent;
 						var title = window.share.title.replace(/{rightAnswerCount}/, s.state.rightAnswerCount).replace(/{scale}/, scale).replace(/{level}/, s.state.level);
 						if (s.state.rightAnswerCount === 0) {
 							title = '新时代新考题，尚需努力！';
@@ -528,6 +529,7 @@ class ZmitiContentApp extends Component {
 							s.props.appId,
 							s.props.worksid
 						)
+						s.forceUpdate();
 					}
 				}
 			});

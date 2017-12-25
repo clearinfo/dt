@@ -189,7 +189,7 @@ $viewW: 10rem;
 
     .zmiti-dangjian-q-title {
       width: 90%;
-      margin:2.8rem auto 1.8rem auto;
+      margin:2.8rem auto 1.35rem auto;
       background: rgba(255, 255, 255, .8);
       background: #f1f0c0;
       @include br(10px);
@@ -203,7 +203,7 @@ $viewW: 10rem;
         box-shadow: 0 0 20px rgba(0, 0, 0, .5)
       }
 
-      font-size:0.35rem;
+      font-size:0.42rem;
       line-height: 1.8;
 
       &>span {
@@ -219,7 +219,7 @@ $viewW: 10rem;
       @include pos(r);
 
       article>div {
-        padding: 80px 30px 40px 30px;
+        padding: 80px 0.6rem 0.6rem 0.6rem;
       }
 
       .zmiti-q-title1 {
@@ -288,7 +288,7 @@ $viewW: 10rem;
 
     .zmiti-dangjian-q-answer-list {
       width: 90%;
-      margin: 1.8rem auto;
+      margin: 1.35rem auto;
 
       .zmiti-dangjian-q-item {
         background: rgba(255, 255, 255, .8);
@@ -314,10 +314,10 @@ $viewW: 10rem;
 
         @include pos(r);
         line-height: 1.8;
-        margin: 20px 0;
+        margin: 0.45rem 0;
         @include br(10px);
         font-size: 0.45rem;
-        padding: 20px;
+        padding: 0.35rem;
         box-sizing: border-box;
 
         &.active {
@@ -380,7 +380,7 @@ $viewW: 10rem;
 
     .zmiti-copyright {
       color: #fff;
-      font-size: 0.45rem;
+      font-size: 0.42rem;
       width: 90%;
       margin: 20px auto;
       white-space: nowrap;
