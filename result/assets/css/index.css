@@ -13,8 +13,8 @@
   overflow: hidden; }
 
 .zmiti-result-main-ui {
-  -webkit-transform: translate3d(640px, 0, 0);
-  transform: translate3d(640px, 0, 0);
+  -webkit-transform: translate3d(10rem, 0, 0);
+  transform: translate3d(10rem, 0, 0);
   -webkit-transition: 0.4s;
   transition: 0.4s; }
   .zmiti-result-main-ui.show {

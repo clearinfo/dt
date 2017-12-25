@@ -11,6 +11,9 @@
   top: 0;
   overflow: hidden; }
 
+.zmiti-main-ui {
+  width: 10rem; }
+
 .zmiti-index-main-ui {
   position: absolute;
   width: 100%;
@@ -20,8 +23,8 @@
   .zmiti-index-main-ui.hide {
     -webkit-transition: 0.4s;
     transition: 0.4s;
-    -webkit-transform: translate3d(-640px, 0, 0);
-    transform: translate3d(-640px, 0, 0); }
+    -webkit-transform: translate3d(-10rem, 0, 0);
+    transform: translate3d(-10rem, 0, 0); }
   .zmiti-index-main-ui .zmiti-sm-title {
     font-size: 36px;
     text-align: center;

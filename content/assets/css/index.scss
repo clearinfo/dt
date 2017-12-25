@@ -382,7 +382,7 @@ $viewW: 10rem;
       color: #fff;
       font-size: 0.42rem;
       width: 90%;
-      margin: 20px auto;
+      margin: 0.35rem auto;
       white-space: nowrap;
     }
     .zmiti-dangjing-sta1{
@@ -458,8 +458,8 @@ $viewW: 10rem;
     .zmiti-dangjian-result-btn, .zmiti-dangjian-result-btn1 {
       @include pos(r);
       width: 90%;
-      height: 70px;
-      line-height: 70px;
+      height: 65px;
+      line-height: 65px;
       background: #f1f0c0;
 
       &:before {
@@ -523,7 +523,7 @@ $viewW: 10rem;
     margin: 0 auto;
     color: #fff;
     font-size: 0.4rem;
-    margin-top: 20px;
+    margin-top: 0.3rem;
   }
 
 }

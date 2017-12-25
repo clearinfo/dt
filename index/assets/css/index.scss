@@ -1,6 +1,6 @@
 ﻿@import "../../../assets/css/base.scss";
-$viewW: 640px;
-
+$viewW: 10rem;
+.zmiti-main-ui{width:10rem;}
 .zmiti-index-main-ui {
   @include pos(a);
   width: 100%;

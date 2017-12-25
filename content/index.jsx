@@ -291,11 +291,10 @@ class ZmitiContentApp extends Component {
 			<span>分享好友</span>
 			</div>	
 			</div>
-
-			<div className='zmiti-team'>出品：陈凯星、冯瑛冰</div>
+			<div className='zmiti-team'>出品：陈凯星、叶俊东、冯瑛冰</div>
 			<div className='zmiti-team'>监制：齐慧杰、孙爱东</div>
 			<div className='zmiti-team'>统筹：宋君毅</div>
-			<div className='zmiti-team'>试题编辑：孟洁、侯帮兴、郭兴</div>
+			<div className='zmiti-team'>试题编辑：孟洁、侯帮兴、郭兴、王静</div>
 			<div className='zmiti-team'>制作：马发展、麟腾传媒</div>
 			<div className='zmiti-copyright'>新华社客户端<span style={{opacity:0}}>新</span>半月谈杂志社联合出品</div>
 			</div>
